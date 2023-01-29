@@ -331,9 +331,9 @@ body
 
 .features-expanded .circle-price
 {
-  width: 109px;
-  height: 100px;
-  font-size: 15px;
+  width: 7em;
+  height: 7em;
+  font-size: 1rem;
   padding: 24px;
   position: absolute;
   right: 0rem;
