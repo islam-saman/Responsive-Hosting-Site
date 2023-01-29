@@ -65,10 +65,10 @@ body
 
 .card-content
 {
-    border-radius: 0;
-    font-size: 1.3em;
-    max-height: 459px;
-    color:#9eded8;
+  border-radius: 0;
+  font-size: 1.3em;
+  max-height: 30em;
+  color:#9eded8;
 
 }
 
@@ -161,7 +161,7 @@ body
 
 .plans .card-continer
 {
-  width: 19rem;
+  max-width: 19rem;
   margin: auto;
 
 
@@ -275,7 +275,6 @@ body
   background-color: white;
   box-shadow: rgb(149 157 165 / 20%) 0px 1px 0px, rgb(149 157 165 / 20%) 0px -1px 0px;
   border: 1px solid #dcd1d16b;
-  width: 10em;
   margin-bottom: 23px;
   color: #16bcb0;
   font-weight: bold;
@@ -307,7 +306,7 @@ body
 
 .key-features .card-continer
 {
-  width: 26rem;
+  max-width: 26rem;
   position: relative;
   margin:auto;
 }
