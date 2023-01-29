@@ -1,0 +1,453 @@
+/* Global class */
+body
+{
+  background-color: #fafafa;
+  color:#525252;
+  height: 5000px;
+}
+.font-alf
+{
+  font-family: 'Alfa Slab One', cursive; 
+}
+
+/* Styling navbar */
+.navbar
+{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+
+.navbar-brand i
+{
+  color: #16bcb0;
+}
+
+
+/* Styling the cursoal */
+
+
+.cursoral-img
+{
+  object-fit: cover;
+  min-height: 800px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #00000078;
+  padding: 40px;
+  border-radius: 50%;
+}
+
+
+.features
+{
+  padding: 60px 0;;
+  background-color: white;
+}
+
+.features .card
+{
+  margin-right: -2px ;
+  background-color: rgb(184 179 179 / 0%);
+  border: none;
+}
+
+.features .card-continer
+{
+  max-width: 40em;
+  margin: auto;
+}
+
+
+
+.card-content
+{
+    border-radius: 0;
+    font-size: 1.3em;
+    max-height: 459px;
+    color:#9eded8;
+
+}
+
+.card-content h3
+{
+  font-family: 'Fredoka One', cursive;
+  font-size:1.5rem;
+}
+
+.card-content p
+{
+  color: #9eded8 !important;
+}
+
+.card-img
+{
+    font-size: 2em;
+    margin-bottom: 42px;
+}
+
+.fa-thumbs-up:before,
+.fa-rocket:before,
+.fa-comments:before
+{
+  border: 1px solid rgb(149 157 165 / 20%);
+  border-radius: 50%;
+  padding: 25px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 1px 0px, rgb(149 157 165 / 20%) 0px -1px 0px;
+  background-color: #1fb4a9;
+}
+
+.fa-rocket:before
+{
+  background-color: #2ec3b8;
+}
+
+.fa-comments:before
+{
+  background-color: #3cd1c6;
+}
+
+
+
+.bg-1
+{
+    background-color: #06ACA0 !important;
+}
+.bg-2
+{
+    background-color: #16bcb0 !important
+}
+.bg-3
+{
+    background-color: #26ccc0  !important
+}
+
+.cg
+{
+  color: #06ACA0;
+}
+
+.navbar
+{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.nav-item, .navbar-brand
+{
+  font-size:2em ; 
+  margin-right: 15px
+} 
+.plans
+{
+  margin-top:100px;
+}
+
+.plans .card
+{
+  border:none;
+  border-radius: 1.5rem;
+  background-color: #fafafa;
+
+}
+.plans-head
+{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+.plans .card-continer
+{
+  width: 19rem;
+  margin: auto;
+
+
+}
+
+.highlight-light-green
+{ 
+    color:#06ACA0;
+}
+
+.plans-head p
+{
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";  font-size: 21px;
+  color: #6e827cb5;
+  margin-top: 30px;
+}
+
+.plans .card-body
+{
+  flex:none;
+}
+
+
+
+.card-top
+{
+  padding: 24px;
+  text-align: center;
+  background-color: #06aca0;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+
+}
+
+.card-top
+.card-img-top
+{
+  margin-top: 8px;
+
+}
+
+.card-top-sub
+{
+  padding: 15px 0;
+  text-align: center;
+  color: #06aca0;
+  box-shadow: rgb(149 157 165 / 20%) 0px 3px 0px;
+  border-left: 1px solid #dcd1d16b;
+  border-right: 1px solid #dcd1d16b;
+  background-color: white;
+}
+
+.card-top-sub h5
+{
+  font-size: 75px;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.price-doller
+{
+  font-size: 43px;
+  font-weight: normal;
+  margin-right: -12px;
+  top: -1em;
+  margin-left: -17px;
+}
+
+.price-monthly
+{
+  font-size:45px;
+}
+
+.card-middle
+{
+  border-left: 1px solid #dcd1d16b;
+  border-right: 1px solid #dcd1d16b;
+  background-color: white;
+  margin-top: 1px;
+  padding-left: 44px;
+}
+
+
+@media (min-width: 768px)
+{
+  .plans .card-middle
+  {
+    padding-left: 35px;
+  } 
+}
+
+.bi-check2
+{
+  color: #06aca0;
+}
+
+.card-bottom
+{
+    text-align: center;
+    border-left: 1px solid #dcd1d16b;
+    border-right: 1px solid #dcd1d16b;
+    box-shadow: rgb(149 157 165 / 20%) 0px 3px 0px;
+    background-color: white;
+} 
+
+.card-bottom .card-button
+{
+  padding: 13px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: rgb(149 157 165 / 20%) 0px 1px 0px, rgb(149 157 165 / 20%) 0px -1px 0px;
+  border: 1px solid #dcd1d16b;
+  width: 10em;
+  margin-bottom: 23px;
+  color: #16bcb0;
+  font-weight: bold;
+  font-size: 23px;
+  transition: .8s;
+} 
+
+.card-button:hover
+{
+  background-color: #16bcb0;
+  color: white;
+}
+
+.list-group-item
+{
+  border:none;
+  margin-top:10px
+}
+
+
+/* Styling key featchers */ 
+
+.key-features
+{
+  margin-top:60px;
+  padding: 60px;
+  background-color: white; 
+}
+
+.key-features .card-continer
+{
+  width: 26rem;
+  position: relative;
+  margin:auto;
+}
+
+.key-features .header h1
+{
+  font-family: 'Fredoka One';
+}
+.features-expanded h5
+{
+  padding: 13px;
+  border: 1px solid #e7dede;
+  font-family: 'Fredoka One';
+  color: #525252;
+  font-size: 1.2em;
+}
+
+.features-expanded .card
+{
+  border:none;
+  margin-top: 80px;
+}
+
+.features-expanded .circle-price
+{
+  width: 109px;
+  height: 100px;
+  font-size: 15px;
+  padding: 24px;
+  position: absolute;
+  right: 0rem;
+  top: -3rem;
+  font-style: italic;
+  border-radius: 50% 50% 50% 0%;
+  background-color: #06aca0;
+  color: white;
+}
+
+.features-expanded .card-body
+{
+  border: 1px solid #dcd1d16b;
+  border-top: none;
+  box-shadow: rgb(149 157 165 / 20%) 0px 3px 0px;
+  margin-top: -8px;
+  flex:none;
+
+}
+
+.features-expanded p
+{
+  margin-bottom: 35px;
+}
+
+.features-expanded img
+{
+  height: 7em;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0.25rem;
+}
+
+.features-expanded .card-button
+{
+  background-color: #ffffff;
+  color: #525252;
+  box-shadow: rgb(149 157 165 / 20%) 0px 3px 0px;
+  border: 1px solid #dcd1d16b;
+  padding: 12px;
+  transition: .8s;
+  margin-bottom: 16px;
+}
+
+.features-expanded .card-button:hover
+{
+  background-color: #16bcb0;
+  color: white;
+}
+
+
+
+/*  styling supported tech section  */
+
+.supported-tech
+{
+  background-color: white;
+  padding-left: 1.5em;
+}
+.supported-tech .logo-container
+{
+  border: 1px solid #eeeaea;
+}
+
+
+.supported-tech img
+{
+  width:10em;
+  opacity: 0.3;
+  padding: 0px;
+  align-self: center;
+
+}
+
+.logo-container
+{
+  display: flex;
+}
+
+.logo-container:nth-child(1) img
+{
+  width: 12em;
+  padding: 5px;
+}
+
+.logo-container:nth-child(3) img
+{
+  padding: 20px;
+
+}
+
+.logo-container:nth-child(4) img
+{
+  padding: 28px;
+  width: 14em;
+  margin-left: -11px;
+}
+
+.logo-container:nth-child(5) img
+{
+  padding: 20px;
+  width: 11em;
+}
+
+
+.logo-container:nth-child(6) img
+{
+  padding: 10px;
+  margin-left: 23px;
+}
+
+
